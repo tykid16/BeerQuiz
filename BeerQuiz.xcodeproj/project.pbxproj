@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A3F48627EB6FE5006C6A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F48527EB6FE5006C6A11 /* AppDelegate.swift */; };
+		17A3F48827EB6FE5006C6A11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F48727EB6FE5006C6A11 /* SceneDelegate.swift */; };
+		17A3F48A27EB6FE5006C6A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F48927EB6FE5006C6A11 /* ViewController.swift */; };
+		17A3F48D27EB6FE5006C6A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F48B27EB6FE5006C6A11 /* Main.storyboard */; };
+		17A3F48F27EB6FE6006C6A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F48E27EB6FE6006C6A11 /* Assets.xcassets */; };
+		17A3F49227EB6FE6006C6A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F49027EB6FE6006C6A11 /* LaunchScreen.storyboard */; };
+		17A3F49A27EB7178006C6A11 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F49927EB7178006C6A11 /* QuizViewController.swift */; };
+		17A3F49C27EB721F006C6A11 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F49B27EB721F006C6A11 /* ScoreViewController.swift */; };
+		17A3F49E27ECD27B006C6A11 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F49D27ECD27B006C6A11 /* quiz1.csv */; };
+		17A3F4A527FB496B006C6A11 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F4A327FB496B006C6A11 /* correct.png */; };
+		17A3F4A627FB496B006C6A11 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F4A427FB496B006C6A11 /* incorrect.png */; };
+		17A3F4A82805BF73006C6A11 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3F4A72805BF73006C6A11 /* SelectLevelViewController.swift */; };
+		17A3F4AA2809D92F006C6A11 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F4A92809D92F006C6A11 /* quiz2.csv */; };
+		17A3F4AC2809D96B006C6A11 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F4AB2809D96B006C6A11 /* quiz3.csv */; };
+		17A3F4AF28105567006C6A11 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A3F4AE28105567006C6A11 /* launchImageView.png */; };
+		284ED0B841CCB4CC3C7346DA /* Pods_BeerQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1F858C1927BC22553440F2 /* Pods_BeerQuiz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A3F48227EB6FE5006C6A11 /* BeerQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A3F48527EB6FE5006C6A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A3F48727EB6FE5006C6A11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17A3F48927EB6FE5006C6A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17A3F48C27EB6FE5006C6A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A3F48E27EB6FE6006C6A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A3F49127EB6FE6006C6A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A3F49327EB6FE6006C6A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A3F49927EB7178006C6A11 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		17A3F49B27EB721F006C6A11 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		17A3F49D27ECD27B006C6A11 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		17A3F4A327FB496B006C6A11 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		17A3F4A427FB496B006C6A11 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		17A3F4A72805BF73006C6A11 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		17A3F4A92809D92F006C6A11 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		17A3F4AB2809D96B006C6A11 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		17A3F4AE28105567006C6A11 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		231383ADBBF7D1F25B4ED026 /* Pods-BeerQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerQuiz.release.xcconfig"; path = "Target Support Files/Pods-BeerQuiz/Pods-BeerQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		9D37E65BC01FF1A9C3827954 /* Pods-BeerQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerQuiz.debug.xcconfig"; path = "Target Support Files/Pods-BeerQuiz/Pods-BeerQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		EF1F858C1927BC22553440F2 /* Pods_BeerQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A3F47F27EB6FE5006C6A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284ED0B841CCB4CC3C7346DA /* Pods_BeerQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A3F47927EB6FE5006C6A11 = {
+			isa = PBXGroup;
+			children = (
+				17A3F48427EB6FE5006C6A11 /* BeerQuiz */,
+				17A3F48327EB6FE5006C6A11 /* Products */,
+				C05ABAF0AC63BE839FB8A0D1 /* Pods */,
+				7A330BC2213EE097EB8B6131 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17A3F48327EB6FE5006C6A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A3F48227EB6FE5006C6A11 /* BeerQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A3F48427EB6FE5006C6A11 /* BeerQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				17A3F48527EB6FE5006C6A11 /* AppDelegate.swift */,
+				17A3F48727EB6FE5006C6A11 /* SceneDelegate.swift */,
+				17A3F48927EB6FE5006C6A11 /* ViewController.swift */,
+				17A3F48B27EB6FE5006C6A11 /* Main.storyboard */,
+				17A3F4A72805BF73006C6A11 /* SelectLevelViewController.swift */,
+				17A3F49B27EB721F006C6A11 /* ScoreViewController.swift */,
+				17A3F49D27ECD27B006C6A11 /* quiz1.csv */,
+				17A3F49927EB7178006C6A11 /* QuizViewController.swift */,
+				17A3F4A92809D92F006C6A11 /* quiz2.csv */,
+				17A3F4AB2809D96B006C6A11 /* quiz3.csv */,
+				17A3F48E27EB6FE6006C6A11 /* Assets.xcassets */,
+				17A3F49027EB6FE6006C6A11 /* LaunchScreen.storyboard */,
+				17A3F49327EB6FE6006C6A11 /* Info.plist */,
+				17A3F4A327FB496B006C6A11 /* correct.png */,
+				17A3F4A427FB496B006C6A11 /* incorrect.png */,
+				17A3F4AD28105567006C6A11 /* launchImage */,
+			);
+			path = BeerQuiz;
+			sourceTree = "<group>";
+		};
+		17A3F4AD28105567006C6A11 /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				17A3F4AE28105567006C6A11 /* launchImageView.png */,
+			);
+			path = launchImage;
+			sourceTree = "<group>";
+		};
+		7A330BC2213EE097EB8B6131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F858C1927BC22553440F2 /* Pods_BeerQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05ABAF0AC63BE839FB8A0D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D37E65BC01FF1A9C3827954 /* Pods-BeerQuiz.debug.xcconfig */,
+				231383ADBBF7D1F25B4ED026 /* Pods-BeerQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A3F48127EB6FE5006C6A11 /* BeerQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A3F49627EB6FE6006C6A11 /* Build configuration list for PBXNativeTarget "BeerQuiz" */;
+			buildPhases = (
+				1209D0246451EF483C8ACA62 /* [CP] Check Pods Manifest.lock */,
+				17A3F47E27EB6FE5006C6A11 /* Sources */,
+				17A3F47F27EB6FE5006C6A11 /* Frameworks */,
+				17A3F48027EB6FE5006C6A11 /* Resources */,
+				DC1033F4721E9EB4B0FA952F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeerQuiz;
+			productName = BeerQuiz;
+			productReference = 17A3F48227EB6FE5006C6A11 /* BeerQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A3F47A27EB6FE5006C6A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					17A3F48127EB6FE5006C6A11 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 17A3F47D27EB6FE5006C6A11 /* Build configuration list for PBXProject "BeerQuiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A3F47927EB6FE5006C6A11;
+			productRefGroup = 17A3F48327EB6FE5006C6A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A3F48127EB6FE5006C6A11 /* BeerQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A3F48027EB6FE5006C6A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A3F4AF28105567006C6A11 /* launchImageView.png in Resources */,
+				17A3F4A527FB496B006C6A11 /* correct.png in Resources */,
+				17A3F4A627FB496B006C6A11 /* incorrect.png in Resources */,
+				17A3F49227EB6FE6006C6A11 /* LaunchScreen.storyboard in Resources */,
+				17A3F49E27ECD27B006C6A11 /* quiz1.csv in Resources */,
+				17A3F4AA2809D92F006C6A11 /* quiz2.csv in Resources */,
+				17A3F48F27EB6FE6006C6A11 /* Assets.xcassets in Resources */,
+				17A3F48D27EB6FE5006C6A11 /* Main.storyboard in Resources */,
+				17A3F4AC2809D96B006C6A11 /* quiz3.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1209D0246451EF483C8ACA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeerQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1033F4721E9EB4B0FA952F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeerQuiz/Pods-BeerQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeerQuiz/Pods-BeerQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeerQuiz/Pods-BeerQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A3F47E27EB6FE5006C6A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A3F48A27EB6FE5006C6A11 /* ViewController.swift in Sources */,
+				17A3F48627EB6FE5006C6A11 /* AppDelegate.swift in Sources */,
+				17A3F49C27EB721F006C6A11 /* ScoreViewController.swift in Sources */,
+				17A3F48827EB6FE5006C6A11 /* SceneDelegate.swift in Sources */,
+				17A3F49A27EB7178006C6A11 /* QuizViewController.swift in Sources */,
+				17A3F4A82805BF73006C6A11 /* SelectLevelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17A3F48B27EB6FE5006C6A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A3F48C27EB6FE5006C6A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A3F49027EB6FE6006C6A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A3F49127EB6FE6006C6A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A3F49427EB6FE6006C6A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A3F49527EB6FE6006C6A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A3F49727EB6FE6006C6A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D37E65BC01FF1A9C3827954 /* Pods-BeerQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H548W7DH34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeerQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beer Quiz";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taikid16.BeerQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		17A3F49827EB6FE6006C6A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231383ADBBF7D1F25B4ED026 /* Pods-BeerQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H548W7DH34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeerQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beer Quiz";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taikid16.BeerQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A3F47D27EB6FE5006C6A11 /* Build configuration list for PBXProject "BeerQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A3F49427EB6FE6006C6A11 /* Debug */,
+				17A3F49527EB6FE6006C6A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A3F49627EB6FE6006C6A11 /* Build configuration list for PBXNativeTarget "BeerQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A3F49727EB6FE6006C6A11 /* Debug */,
+				17A3F49827EB6FE6006C6A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A3F47A27EB6FE5006C6A11 /* Project object */;
+}
